@@ -1,0 +1,313 @@
+﻿* {
+    outline: none;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Your code goes here */
+
+.carousel-inner-in-header {
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-caption-in-header {
+    margin-bottom: 400px;
+}
+
+.carousel-caption-in-header h5 {
+    font-size: 60px;
+}
+
+.carousel-caption-in-header p {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.nav-item {
+    margin-right: 40px;
+    font-size: 22px;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+.header-container {
+    margin-top: 20px;
+}
+
+.navbar {
+    background-image: url(../img/header-bg.jpg);
+}
+
+.card {
+    border: none;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.card p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.card hr {
+    display: inline-block;
+    width: 60px;
+    border-bottom: 3px solid black;
+    margin-top: -10px;
+}
+
+.container-on-card-group {
+    margin-top: 20px;
+}
+
+.card-img-top {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000aa;
+}
+
+.card-text {
+    text-align: left;
+}
+
+.card-group {
+    margin-bottom: 20px;
+}
+
+.btn-in-services {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #8120ba;
+}
+
+.wrap {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f0e7e7;
+}
+
+.card-in-wrap {
+    background-color: #f0e7e7;
+}
+
+.work-img {
+    width: 100%;
+}
+
+.container-flax {
+    display: flex;
+}
+
+.work-img6 {
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.work-img7 {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.work-img5 {
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.work-img3 {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.work-img1 {
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+.work-img2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.work-img4 {
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.card-body-on-carousel h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container-carousel {
+    margin-bottom: 70px;
+}
+
+.carousel-inside {
+    display: flex;
+    flex-direction: row;
+}
+
+.carousel-img {
+    width: 35%;
+
+}
+
+.carousel-text {
+    width: 65%;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.carousel-text h5 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.carousel-text p {
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.references-image-bg {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 300px;
+    left: -50px;
+}
+
+.references-img {
+    width: 100%;
+    display: block;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    left: -150px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(../img/slider-prev-arrow.png);
+}
+
+.wrapper-contact {
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.card-on-form {
+    background-color: black;
+}
+
+.card-body-on-form h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.card-body-on-form hr {
+    display: inline-block;
+    width: 60px;
+    border-bottom: 3px solid white;
+    margin-top: 15px;
+}
+
+.form-control {
+    font-size: 20px;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.btn-in-form {
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 0;
+    background-color: rgb(48, 43, 43);
+    display: block;
+    margin: 0 auto;
+}
+
+.wrap-on-footer {
+    background-color: #5e1688;
+}
+
+.container-on-footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.contact-in-footer {
+    color: white;
+    font-size: 20px;
+}
+
+.wrapper-footer-mail-icon {
+    display: flex;
+}
+
+.wrapper-footer-phone-icon {
+    display: flex;
+}
+
+.footer-mail-icon {
+    height: 100%;
+    margin-right: 30px;
+}
+
+.footer-phone-icon {
+    height: 100%;
+    margin-right: 30px;
+}
+
+.wrapper-footer-mail-icon p {
+    color: white;
+    font-size: 20px;
+}
+
+.wrapper-footer-phone-icon {
+    color: white;
+    font-size: 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.icons-text p {
+    color: white;
+}

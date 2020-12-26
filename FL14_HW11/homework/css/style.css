@@ -1,0 +1,28 @@
+/* Your style goes here */
+body {
+    padding: 0;
+}
+
+.names {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper {
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.cell {
+    border: 1px solid gray;
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,51 @@
+/* Your code goes here */
+body {
+    padding: 0;
+    margin: 0 0 5vh;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 150px);
+    grid-template-rows: repeat(7, 150px);
+    grid-gap: 20px;
+    margin: 50px;
+}
+
+.grid div:nth-child(1) {
+    grid-column: 1 / -1;
+    background-color: black;
+    color: white;
+    font-size: 70px;
+    font-weight: 700;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid div:nth-child(n+2):nth-child(-n+8) {
+    display: grid;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.grid div:nth-child(n+9):nth-child(-n+12) {
+    border: 1px solid #e9eeed;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.grid div:nth-child(n+13) {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #e9eeed;
+}

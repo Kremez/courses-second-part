@@ -1,0 +1,13 @@
+/* Your style goes here */
+body {
+    padding: 0;
+}
+
+.container div {
+    height: 200px;
+    border: 1px solid black;
+}
+
+.container div h3 {
+    text-align: center;
+}

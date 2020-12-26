@@ -1,0 +1,19 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "done homework",
+  "main": "index html\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[\u001b[3~.\u001b[C\u001b[C\u001b[C\u001b[C",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fls",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-file-include": "^2.2.2",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-sass": "^4.1.0"
+  }
+}
